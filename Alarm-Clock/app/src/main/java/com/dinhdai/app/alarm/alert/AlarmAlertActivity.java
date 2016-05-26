@@ -19,6 +19,7 @@ import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Vibrator;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
@@ -33,9 +34,13 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class AlarmAlertActivity extends Activity implements OnClickListener {
 
+	private final int SNOOZE_LENGTH = 300000; //5000;
+	private final int MAX_SNOOZES = 3;
+	private int snoozeCount;
 	private Alarm alarm;
 	private MediaPlayer mediaPlayer;
 
@@ -43,8 +48,10 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 
 	private boolean alarmActive;
     private Button turnAlarmOffButton;
+	private Button snoozeButton;
     private TextView alarmLabelTextView;
     private ImageView alarmIconImageView;
+	private CountDownTimer countDownTimer;
 
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +64,8 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 
 		setContentView(R.layout.activity_alarm_alert);
 
+		snoozeCount = 0;
+
 		Bundle bundle = this.getIntent().getExtras();
 		alarm = (Alarm) bundle.getSerializable("alarm");
 
@@ -64,6 +73,9 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 
         turnAlarmOffButton = (Button) findViewById(R.id.turnAlarmOffButton);
         turnAlarmOffButton.setOnClickListener(this);
+
+		snoozeButton = (Button) findViewById(R.id.snoozeButton);
+		snoozeButton.setOnClickListener(this);
 
         alarmIconImageView = (ImageView) findViewById(R.id.alarmIconImageView);
         Animation shakeAnimation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.shake);
@@ -205,5 +217,63 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
             }
             this.finish();
         }
+		/*
+		 *  Handles the snoozeButton press.
+		 *	Creates a countdowntimer that will reactivate the alarm.
+		 */
+		if (v.getId() == R.id.snoozeButton) {
+			/* To-Do Snooze Logic*/
+			Toast.makeText(this, "Snoozing and Losing!!!", Toast.LENGTH_SHORT).show();
+			final AlarmAlertActivity alarmAlertInstance = this;
+			snoozeCount++;
+
+			/* TODO Insert Code to call method to take away 5 bucks and donate to charity. */
+
+			/* Make the two buttons invisible */
+			final View snoozeView = findViewById(R.id.snoozeButton);
+			snoozeView.setVisibility(View.GONE);
+			final View alarmView = findViewById(R.id.turnAlarmOffButton);
+			alarmView.setVisibility(View.GONE);
+
+			/* Creates a timer for snoozing and then starts it.*/
+			countDownTimer = new CountDownTimer(SNOOZE_LENGTH, 1000) {
+				@Override
+				public void onTick(long l) {
+
+				}
+
+				/* Handles the end of the snooze cycle.
+				* Displays a message saying that snooze time is over and displays the buttons again
+				* Starts the alarm again unless the snooze count is greater than MAX_SNOOZES. */
+				public void onFinish() {
+					if (snoozeCount < MAX_SNOOZES) {
+						Toast.makeText(alarmAlertInstance, "Snooze Time is Over!!!", Toast.LENGTH_LONG).show();
+						startAlarm();
+						snoozeView.setVisibility(View.VISIBLE);
+						alarmView.setVisibility(View.VISIBLE);
+					}
+					else {
+						Toast.makeText(alarmAlertInstance, "Too Many Snoozes, you're on your own",
+								       Toast.LENGTH_LONG).show();
+						alarmAlertInstance.finish();
+					}
+				}
+			};
+			countDownTimer.start();
+
+			/* Turns off the vibration and the alarm.*/
+			if (vibrator != null)
+				vibrator.cancel();
+			try {
+				mediaPlayer.stop();
+			} catch (IllegalStateException ise) {
+
+			}
+			try {
+				mediaPlayer.release();
+			} catch (Exception e) {
+
+			}
+		}
 	}
 }
