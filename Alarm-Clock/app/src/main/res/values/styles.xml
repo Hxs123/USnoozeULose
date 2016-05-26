@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTabs">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:backgroundStacked">#27ae60</item>
+    </style>
+</resources>
