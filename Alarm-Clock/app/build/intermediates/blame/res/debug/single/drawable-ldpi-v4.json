@@ -1,10 +1,15 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
         "source": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/drawable-ldpi/ic_launcher.png"
     },
     {
         "merged": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/USnoozeULose/Alarm-Clock/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
         "source": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/USnoozeULose/Alarm-Clock/app/src/main/res/drawable-ldpi/ic_launcher.png"
+=======
+        "merged": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/res/drawable-ldpi/ic_launcher.png"
+>>>>>>> afd5b3244251cd67b15b6b82feadcec2474260ea
     }
 ]

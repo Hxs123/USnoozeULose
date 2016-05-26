@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/USnoozeULose/Alarm-Clock/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
         "map": [
             {
@@ -177,6 +178,9 @@
     },
     {
         "outputFile": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+=======
+        "outputFile": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+>>>>>>> afd5b3244251cd67b15b6b82feadcec2474260ea
         "map": [
             {
                 "to": {
@@ -187,7 +191,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -206,7 +210,7 @@
                     "endOffset": 180
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -225,7 +229,7 @@
                     "endOffset": 249
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -244,7 +248,7 @@
                     "endOffset": 314
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -263,7 +267,7 @@
                     "endOffset": 380
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -282,7 +286,7 @@
                     "endOffset": 442
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -301,7 +305,7 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -320,7 +324,7 @@
                     "endOffset": 566
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -339,7 +343,7 @@
                     "endOffset": 621
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
+                    "file": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values-w600dp/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,

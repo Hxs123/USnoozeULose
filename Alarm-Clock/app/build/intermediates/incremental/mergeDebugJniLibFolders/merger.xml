@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/USnoozeULose/Alarm-Clock/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/USnoozeULose/Alarm-Clock/app/src/debug/jniLibs"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/debug/jniLibs"/></dataSet></merger>
+>>>>>>> afd5b3244251cd67b15b6b82feadcec2474260ea
