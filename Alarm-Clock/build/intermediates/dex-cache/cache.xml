@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="98c4f28c99bd0e67923e0389317b10530ac81948">
+        <dex dex="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8f62a02e1f6224bddfd9d6fb84f064ab00980001/classes.dex" />
+    </item>
+    <item
+        jar="/home/np/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_48b36a97f0535ee8a555dc52cfcd1f1d7263c815/classes.dex" />
+    </item>
+    <item
+        jar="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-18.0.0_b9d4e08573ffd487538d709f98b7053aa0e35903/classes.dex" />
+    </item>
+    <item
+        jar="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="e81b46497143f34d5db97b5c740b31446755f007">
+        <dex dex="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_72e28349ffc103195e856e245afe315e969c3c9d/classes.dex" />
+    </item>
+
+</items>
