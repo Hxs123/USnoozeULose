@@ -44,7 +44,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 	<string name="decimal_button_text">,</string>
 	<string name="clear_button_text">Clear</string>
 	<string name="minus_button_text">-</string>
-	<string name="off_button_text">-</string>
+	<string name="off_button_text">Turn Off Alarm</string>
+	<string name="snooze_button_text">Snooze</string>
 
 	<string name="button_delete">Delete</string>
 	<string name="ok">OK</string>

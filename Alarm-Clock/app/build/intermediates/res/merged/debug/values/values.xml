@@ -149,10 +149,11 @@
     <string name="menu_item_website">Website</string>
     <string name="minus_button_text">-</string>
     <string name="no_alarms">No alarms have been set</string>
-    <string name="off_button_text">-</string>
+    <string name="off_button_text">Turn Off Alarm</string>
     <string name="ok">OK</string>
     <string name="repeat">Repeat</string>
     <string name="ringtone">Ringtone</string>
+    <string name="snooze_button_text">Snooze</string>
     <string name="time">Set Time</string>
     <string name="title_activity_set_alarms">Set Alarm</string>
     <string name="vibrate">Vibrate</string>

@@ -29,15 +29,37 @@
             android:layout_marginBottom="50dp"
             android:layout_gravity="center"/>
 
-        <Button
-            android:id="@+id/turnAlarmOffButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/off_button_text"
-            android:background="@drawable/red_button"
-            android:textColor="#FFFFFF"/>
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/snoozeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/snooze_button_text"
+        android:background="@drawable/red_button"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp" />
+
+    <Button
+        android:id="@+id/turnAlarmOffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/off_button_text"
+        android:background="@drawable/green_button"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/snoozeButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp" />
 
 
 </RelativeLayout>

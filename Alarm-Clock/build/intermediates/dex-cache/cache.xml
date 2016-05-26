@@ -5,7 +5,7 @@
         jar="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="c9e37cfb743a187bbaa2db29088870b54bb68edc">
+        sha1="6e5b92e4e2fdb694eca611582f493c9301722915">
         <dex dex="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8f62a02e1f6224bddfd9d6fb84f064ab00980001/classes.dex" />
     </item>
     <item
@@ -26,7 +26,7 @@
         jar="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="397721fec7ebad39641ce4d8ac220cae74094ea1">
+        sha1="ede0fa9383542219452320e439a9febb369d9c4d">
         <dex dex="/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_72e28349ffc103195e856e245afe315e969c3c9d/classes.dex" />
     </item>
 

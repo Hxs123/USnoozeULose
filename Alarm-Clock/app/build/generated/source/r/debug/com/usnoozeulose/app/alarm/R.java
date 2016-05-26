@@ -781,10 +781,10 @@ containing a value of this type.
         public static final int addAlarmButton=0x7f0a0042;
         public static final int alarmIconImageView=0x7f0a0044;
         public static final int alarmLabelTextView=0x7f0a0045;
-        public static final int alarmOnOffSwitch=0x7f0a004b;
+        public static final int alarmOnOffSwitch=0x7f0a004c;
         public static final int always=0x7f0a0011;
         public static final int beginning=0x7f0a000d;
-        public static final int cancelAlarmButton=0x7f0a0047;
+        public static final int cancelAlarmButton=0x7f0a0048;
         public static final int checkbox=0x7f0a002b;
         public static final int collapseActionView=0x7f0a0012;
         public static final int default_activity_button=0x7f0a0026;
@@ -813,7 +813,7 @@ containing a value of this type.
         public static final int radio=0x7f0a002d;
         public static final int right_container=0x7f0a0032;
         public static final int right_icon=0x7f0a0033;
-        public static final int saveAlarmButton=0x7f0a0048;
+        public static final int saveAlarmButton=0x7f0a0049;
         public static final int search_badge=0x7f0a0038;
         public static final int search_bar=0x7f0a0037;
         public static final int search_button=0x7f0a0039;
@@ -828,15 +828,16 @@ containing a value of this type.
         public static final int showCustom=0x7f0a0009;
         public static final int showHome=0x7f0a000a;
         public static final int showTitle=0x7f0a000b;
+        public static final int snoozeButton=0x7f0a0046;
         public static final int split_action_bar=0x7f0a001c;
         public static final int submit_area=0x7f0a003f;
         public static final int tabMode=0x7f0a0006;
-        public static final int textView_alarm_days=0x7f0a004a;
-        public static final int textView_alarm_time=0x7f0a0049;
+        public static final int textView_alarm_days=0x7f0a004b;
+        public static final int textView_alarm_time=0x7f0a004a;
         public static final int title=0x7f0a0029;
         public static final int title_container=0x7f0a0030;
         public static final int top_action_bar=0x7f0a001e;
-        public static final int turnAlarmOffButton=0x7f0a0046;
+        public static final int turnAlarmOffButton=0x7f0a0047;
         public static final int up=0x7f0a001f;
         public static final int useLogo=0x7f0a000c;
         public static final int withText=0x7f0a0015;
@@ -923,9 +924,10 @@ containing a value of this type.
         public static final int ok=0x7f0b0028;
         public static final int repeat=0x7f0b0029;
         public static final int ringtone=0x7f0b002a;
-        public static final int time=0x7f0b002b;
-        public static final int title_activity_set_alarms=0x7f0b002c;
-        public static final int vibrate=0x7f0b002d;
+        public static final int snooze_button_text=0x7f0b002b;
+        public static final int time=0x7f0b002c;
+        public static final int title_activity_set_alarms=0x7f0b002d;
+        public static final int vibrate=0x7f0b002e;
     }
     public static final class style {
         public static final int MyTabs=0x7f080039;

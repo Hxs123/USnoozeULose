@@ -16,6 +16,7 @@ public class MainActivity extends TabActivity {
         setContentView(R.layout.activity_main);
 
 
+        /*
         SharedPreferences sharedPrefs = getLocalActivityManager().getCurrentActivity().
                 getSharedPreferences("SHARED_PREFS", Context.MODE_PRIVATE);
 
@@ -31,6 +32,7 @@ public class MainActivity extends TabActivity {
             sharedPrefsEditor.apply();
 
         }
+        */
 
         /* Alarm */
 
@@ -45,5 +47,6 @@ public class MainActivity extends TabActivity {
 
     }
 
+    //Alarm-Clock/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/usnoozeulose/app/alarm/AlarmListAdapter.class
 
 }
