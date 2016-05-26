@@ -77,10 +77,10 @@ public class AlarmPreferencesActivity extends BaseActivity {
         }
 
         if (isEditAlarm) {
-            saveAlarmButton.setText("Lưu");
+            saveAlarmButton.setText("Save");
             saveAlarmButton.setBackground(getResources().getDrawable(R.drawable.orange_button));
 
-            cancelAlarmButton.setText("Xóa");
+            cancelAlarmButton.setText("Delete");
             cancelAlarmButton.setBackground(getResources().getDrawable(R.drawable.red_button));
         }
 

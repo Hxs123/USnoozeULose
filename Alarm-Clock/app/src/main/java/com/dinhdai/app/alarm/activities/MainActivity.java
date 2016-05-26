@@ -18,19 +18,19 @@ public class MainActivity extends TabActivity {
 
 
         TabSpec clock = tabHost.newTabSpec("d");
-        clock.setIndicator("Đồng hồ");
+        clock.setIndicator("Clock");
         Intent clockIntent = new Intent(this, ClockActivity.class);
         clock.setContent(clockIntent);
 
 
         TabSpec alarm = tabHost.newTabSpec("b");
-        alarm.setIndicator("Báo thức");
+        alarm.setIndicator("Alarm Clock");
         Intent alarmIntent = new Intent(this, AlarmActivity.class);
         alarm.setContent(alarmIntent);
 
 
         TabSpec stopwatch = tabHost.newTabSpec("s");
-        stopwatch.setIndicator("Bấm giờ");
+        stopwatch.setIndicator("Stopwatch");
         Intent stopwatchIntent = new Intent(this, StopwatchActivity.class);
         stopwatch.setContent(stopwatchIntent);
 

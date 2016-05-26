@@ -50,4 +50,12 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 	<string name="ok">OK</string>
 	<string name="cancel">Cancel</string>
 
+	<!-- Alarm Strings-->
+	<string name="active">Active</string>
+	<string name="label">Label</string>
+	<string name="time">Set Time</string>
+	<string name="repeat">Repeat</string>
+	<string name="ringtone">Ringtone</string>
+	<string name="vibrate">Vibrate</string>
+
 </resources>

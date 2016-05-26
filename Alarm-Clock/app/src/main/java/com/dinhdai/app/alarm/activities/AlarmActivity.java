@@ -55,9 +55,9 @@ public class AlarmActivity extends BaseActivity implements View.OnClickListener 
                 view.performHapticFeedback(HapticFeedbackConstants.LONG_PRESS);
                 final Alarm alarm = (Alarm) alarmListAdapter.getItem(position);
                 Builder dialog = new Builder(AlarmActivity.this);
-                dialog.setTitle("Xó Báo Thức");
-                dialog.setMessage("Bạn có chắc muốn xóa báo thức này ?");
-                dialog.setPositiveButton("Có", new OnClickListener() {
+                dialog.setTitle("Delete");
+                dialog.setMessage("Delete this alarm?");
+                dialog.setPositiveButton("Ok", new OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
@@ -68,7 +68,7 @@ public class AlarmActivity extends BaseActivity implements View.OnClickListener 
                         updateAlarmList();
                     }
                 });
-                dialog.setNegativeButton("Không", new OnClickListener() {
+                dialog.setNegativeButton("Cancel", new OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();

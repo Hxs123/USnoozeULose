@@ -1411,20 +1411,27 @@
                     "startLine": 135,
                     "startColumn": 4,
                     "startOffset": 12415,
-                    "endColumn": 48,
-                    "endOffset": 12459
+                    "endColumn": 41,
+                    "endOffset": 12452
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 1,
+                        "startOffset": 1902,
+                        "endColumn": 38,
+                        "endOffset": 1939
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 12464,
+                    "startOffset": 12457,
                     "endColumn": 48,
-                    "endOffset": 12508
+                    "endOffset": 12501
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1434,9 +1441,9 @@
                 "to": {
                     "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 12513,
-                    "endColumn": 42,
-                    "endOffset": 12551
+                    "startOffset": 12506,
+                    "endColumn": 48,
+                    "endOffset": 12550
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1446,8 +1453,8 @@
                 "to": {
                     "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 12556,
-                    "endColumn": 41,
+                    "startOffset": 12555,
+                    "endColumn": 42,
                     "endOffset": 12593
                 },
                 "from": {
@@ -1459,8 +1466,8 @@
                     "startLine": 139,
                     "startColumn": 4,
                     "startOffset": 12598,
-                    "endColumn": 51,
-                    "endOffset": 12645
+                    "endColumn": 41,
+                    "endOffset": 12635
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1470,9 +1477,9 @@
                 "to": {
                     "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 12650,
-                    "endColumn": 49,
-                    "endOffset": 12695
+                    "startOffset": 12640,
+                    "endColumn": 51,
+                    "endOffset": 12687
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1482,9 +1489,9 @@
                 "to": {
                     "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 12700,
-                    "endColumn": 51,
-                    "endOffset": 12747
+                    "startOffset": 12692,
+                    "endColumn": 49,
+                    "endOffset": 12737
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1494,21 +1501,28 @@
                 "to": {
                     "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 12752,
-                    "endColumn": 45,
-                    "endOffset": 12793
+                    "startOffset": 12742,
+                    "endColumn": 39,
+                    "endOffset": 12777
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 1,
+                        "startOffset": 1941,
+                        "endColumn": 36,
+                        "endOffset": 1976
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 12798,
-                    "endColumn": 62,
-                    "endOffset": 12856
+                    "startOffset": 12782,
+                    "endColumn": 51,
+                    "endOffset": 12829
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1518,9 +1532,9 @@
                 "to": {
                     "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 12861,
-                    "endColumn": 57,
-                    "endOffset": 12914
+                    "startOffset": 12834,
+                    "endColumn": 45,
+                    "endOffset": 12875
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1530,9 +1544,9 @@
                 "to": {
                     "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 12919,
-                    "endColumn": 47,
-                    "endOffset": 12962
+                    "startOffset": 12880,
+                    "endColumn": 62,
+                    "endOffset": 12938
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1542,9 +1556,9 @@
                 "to": {
                     "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 12967,
-                    "endColumn": 53,
-                    "endOffset": 13016
+                    "startOffset": 12943,
+                    "endColumn": 57,
+                    "endOffset": 12996
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1554,9 +1568,9 @@
                 "to": {
                     "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 13021,
+                    "startOffset": 13001,
                     "endColumn": 47,
-                    "endOffset": 13064
+                    "endOffset": 13044
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1566,9 +1580,9 @@
                 "to": {
                     "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 13069,
-                    "endColumn": 61,
-                    "endOffset": 13126
+                    "startOffset": 13049,
+                    "endColumn": 53,
+                    "endOffset": 13098
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1578,28 +1592,21 @@
                 "to": {
                     "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 13131,
-                    "endColumn": 45,
-                    "endOffset": 13172
+                    "startOffset": 13103,
+                    "endColumn": 47,
+                    "endOffset": 13146
                 },
                 "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 46,
-                        "startColumn": 1,
-                        "startOffset": 1718,
-                        "endColumn": 42,
-                        "endOffset": 1759
-                    }
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 13177,
-                    "endColumn": 33,
-                    "endOffset": 13206
+                    "startOffset": 13151,
+                    "endColumn": 61,
+                    "endOffset": 13208
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1609,9 +1616,9 @@
                 "to": {
                     "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 13211,
-                    "endColumn": 63,
-                    "endOffset": 13270
+                    "startOffset": 13213,
+                    "endColumn": 45,
+                    "endOffset": 13254
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
@@ -1621,10 +1628,110 @@
                 "to": {
                     "startLine": 152,
                     "startColumn": 4,
-                    "startOffset": 13275,
-                    "endLine": 157,
+                    "startOffset": 13259,
+                    "endColumn": 33,
+                    "endOffset": 13288
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 13293,
+                    "endColumn": 41,
+                    "endOffset": 13330
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 1,
+                        "startOffset": 2017,
+                        "endColumn": 38,
+                        "endOffset": 2054
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 13335,
+                    "endColumn": 45,
+                    "endOffset": 13376
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 1,
+                        "startOffset": 2056,
+                        "endColumn": 42,
+                        "endOffset": 2097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 13381,
+                    "endColumn": 41,
+                    "endOffset": 13418
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 1,
+                        "startOffset": 1978,
+                        "endColumn": 38,
+                        "endOffset": 2015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 13423,
+                    "endColumn": 63,
+                    "endOffset": 13482
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 13487,
+                    "endColumn": 43,
+                    "endOffset": 13526
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 1,
+                        "startOffset": 2099,
+                        "endColumn": 40,
+                        "endOffset": 2138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 13531,
+                    "endLine": 163,
                     "endColumn": 12,
-                    "endOffset": 13530
+                    "endOffset": 13786
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/src/main/res/values/styles.xml"
@@ -1632,12 +1739,12 @@
             },
             {
                 "to": {
-                    "startLine": 158,
+                    "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 13535,
-                    "endLine": 160,
+                    "startOffset": 13791,
+                    "endLine": 166,
                     "endColumn": 12,
-                    "endOffset": 13730
+                    "endOffset": 13986
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1645,12 +1752,12 @@
             },
             {
                 "to": {
-                    "startLine": 161,
+                    "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 13735,
-                    "endLine": 165,
+                    "startOffset": 13991,
+                    "endLine": 171,
                     "endColumn": 12,
-                    "endOffset": 14013
+                    "endOffset": 14269
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1658,12 +1765,12 @@
             },
             {
                 "to": {
-                    "startLine": 166,
+                    "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 14018,
-                    "endLine": 169,
+                    "startOffset": 14274,
+                    "endLine": 175,
                     "endColumn": 12,
-                    "endOffset": 14221
+                    "endOffset": 14477
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1671,12 +1778,12 @@
             },
             {
                 "to": {
-                    "startLine": 170,
+                    "startLine": 176,
                     "startColumn": 4,
-                    "startOffset": 14226,
-                    "endLine": 172,
+                    "startOffset": 14482,
+                    "endLine": 178,
                     "endColumn": 12,
-                    "endOffset": 14352
+                    "endOffset": 14608
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1684,12 +1791,12 @@
             },
             {
                 "to": {
-                    "startLine": 173,
+                    "startLine": 179,
                     "startColumn": 4,
-                    "startOffset": 14357,
-                    "endLine": 176,
+                    "startOffset": 14613,
+                    "endLine": 182,
                     "endColumn": 12,
-                    "endOffset": 14614
+                    "endOffset": 14870
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1697,12 +1804,12 @@
             },
             {
                 "to": {
-                    "startLine": 177,
+                    "startLine": 183,
                     "startColumn": 4,
-                    "startOffset": 14619,
-                    "endLine": 180,
+                    "startOffset": 14875,
+                    "endLine": 186,
                     "endColumn": 12,
-                    "endOffset": 14876
+                    "endOffset": 15132
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1710,12 +1817,12 @@
             },
             {
                 "to": {
-                    "startLine": 181,
+                    "startLine": 187,
                     "startColumn": 4,
-                    "startOffset": 14881,
-                    "endLine": 184,
+                    "startOffset": 15137,
+                    "endLine": 190,
                     "endColumn": 12,
-                    "endOffset": 15154
+                    "endOffset": 15410
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1723,61 +1830,12 @@
             },
             {
                 "to": {
-                    "startLine": 185,
+                    "startLine": 191,
                     "startColumn": 4,
-                    "startOffset": 15159,
-                    "endLine": 188,
+                    "startOffset": 15415,
+                    "endLine": 194,
                     "endColumn": 12,
-                    "endOffset": 15368
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 189,
-                    "startColumn": 4,
-                    "startOffset": 15373,
-                    "endLine": 191,
-                    "endColumn": 12,
-                    "endOffset": 15505
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 192,
-                    "startColumn": 4,
-                    "startOffset": 15510,
-                    "endColumn": 140,
-                    "endOffset": 15646
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 193,
-                    "startColumn": 4,
-                    "startOffset": 15651,
-                    "endColumn": 140,
-                    "endOffset": 15787
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 194,
-                    "startColumn": 4,
-                    "startOffset": 15792,
-                    "endColumn": 139,
-                    "endOffset": 15927
+                    "endOffset": 15624
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1787,33 +1845,10 @@
                 "to": {
                     "startLine": 195,
                     "startColumn": 4,
-                    "startOffset": 15932,
-                    "endColumn": 133,
-                    "endOffset": 16061
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 196,
-                    "startColumn": 4,
-                    "startOffset": 16066,
-                    "endColumn": 141,
-                    "endOffset": 16203
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 197,
-                    "startColumn": 4,
-                    "startOffset": 16208,
-                    "endColumn": 141,
-                    "endOffset": 16345
+                    "startOffset": 15629,
+                    "endLine": 197,
+                    "endColumn": 12,
+                    "endOffset": 15761
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1823,9 +1858,9 @@
                 "to": {
                     "startLine": 198,
                     "startColumn": 4,
-                    "startOffset": 16350,
-                    "endColumn": 127,
-                    "endOffset": 16473
+                    "startOffset": 15766,
+                    "endColumn": 140,
+                    "endOffset": 15902
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1835,9 +1870,9 @@
                 "to": {
                     "startLine": 199,
                     "startColumn": 4,
-                    "startOffset": 16478,
-                    "endColumn": 121,
-                    "endOffset": 16595
+                    "startOffset": 15907,
+                    "endColumn": 140,
+                    "endOffset": 16043
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1847,9 +1882,9 @@
                 "to": {
                     "startLine": 200,
                     "startColumn": 4,
-                    "startOffset": 16600,
-                    "endColumn": 127,
-                    "endOffset": 16723
+                    "startOffset": 16048,
+                    "endColumn": 139,
+                    "endOffset": 16183
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1859,9 +1894,9 @@
                 "to": {
                     "startLine": 201,
                     "startColumn": 4,
-                    "startOffset": 16728,
-                    "endColumn": 135,
-                    "endOffset": 16859
+                    "startOffset": 16188,
+                    "endColumn": 133,
+                    "endOffset": 16317
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1871,9 +1906,9 @@
                 "to": {
                     "startLine": 202,
                     "startColumn": 4,
-                    "startOffset": 16864,
-                    "endColumn": 151,
-                    "endOffset": 17011
+                    "startOffset": 16322,
+                    "endColumn": 141,
+                    "endOffset": 16459
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1883,9 +1918,9 @@
                 "to": {
                     "startLine": 203,
                     "startColumn": 4,
-                    "startOffset": 17016,
-                    "endColumn": 129,
-                    "endOffset": 17141
+                    "startOffset": 16464,
+                    "endColumn": 141,
+                    "endOffset": 16601
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1895,9 +1930,9 @@
                 "to": {
                     "startLine": 204,
                     "startColumn": 4,
-                    "startOffset": 17146,
-                    "endColumn": 145,
-                    "endOffset": 17287
+                    "startOffset": 16606,
+                    "endColumn": 127,
+                    "endOffset": 16729
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1907,9 +1942,9 @@
                 "to": {
                     "startLine": 205,
                     "startColumn": 4,
-                    "startOffset": 17292,
-                    "endColumn": 137,
-                    "endOffset": 17425
+                    "startOffset": 16734,
+                    "endColumn": 121,
+                    "endOffset": 16851
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1919,9 +1954,9 @@
                 "to": {
                     "startLine": 206,
                     "startColumn": 4,
-                    "startOffset": 17430,
-                    "endColumn": 153,
-                    "endOffset": 17579
+                    "startOffset": 16856,
+                    "endColumn": 127,
+                    "endOffset": 16979
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1931,9 +1966,9 @@
                 "to": {
                     "startLine": 207,
                     "startColumn": 4,
-                    "startOffset": 17584,
-                    "endColumn": 131,
-                    "endOffset": 17711
+                    "startOffset": 16984,
+                    "endColumn": 135,
+                    "endOffset": 17115
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1943,9 +1978,9 @@
                 "to": {
                     "startLine": 208,
                     "startColumn": 4,
-                    "startOffset": 17716,
-                    "endColumn": 147,
-                    "endOffset": 17859
+                    "startOffset": 17120,
+                    "endColumn": 151,
+                    "endOffset": 17267
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1955,10 +1990,57 @@
                 "to": {
                     "startLine": 209,
                     "startColumn": 4,
-                    "startOffset": 17864,
-                    "endLine": 213,
-                    "endColumn": 12,
-                    "endOffset": 18154
+                    "startOffset": 17272,
+                    "endColumn": 129,
+                    "endOffset": 17397
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 17402,
+                    "endColumn": 145,
+                    "endOffset": 17543
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 17548,
+                    "endColumn": 137,
+                    "endOffset": 17681
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 17686,
+                    "endColumn": 153,
+                    "endOffset": 17835
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 17840,
+                    "endColumn": 131,
+                    "endOffset": 17967
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1968,9 +2050,9 @@
                 "to": {
                     "startLine": 214,
                     "startColumn": 4,
-                    "startOffset": 18159,
-                    "endColumn": 113,
-                    "endOffset": 18268
+                    "startOffset": 17972,
+                    "endColumn": 147,
+                    "endOffset": 18115
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -1980,46 +2062,22 @@
                 "to": {
                     "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 18273,
-                    "endColumn": 129,
-                    "endOffset": 18398
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 216,
-                    "startColumn": 4,
-                    "startOffset": 18403,
-                    "endColumn": 111,
-                    "endOffset": 18510
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 217,
-                    "startColumn": 4,
-                    "startOffset": 18515,
-                    "endColumn": 127,
-                    "endOffset": 18638
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 218,
-                    "startColumn": 4,
-                    "startOffset": 18643,
-                    "endLine": 220,
+                    "startOffset": 18120,
+                    "endLine": 219,
                     "endColumn": 12,
-                    "endOffset": 18844
+                    "endOffset": 18410
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 18415,
+                    "endColumn": 113,
+                    "endOffset": 18524
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2029,10 +2087,33 @@
                 "to": {
                     "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 18849,
-                    "endLine": 223,
-                    "endColumn": 12,
-                    "endOffset": 19073
+                    "startOffset": 18529,
+                    "endColumn": 129,
+                    "endOffset": 18654
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 222,
+                    "startColumn": 4,
+                    "startOffset": 18659,
+                    "endColumn": 111,
+                    "endOffset": 18766
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 18771,
+                    "endColumn": 127,
+                    "endOffset": 18894
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2042,34 +2123,10 @@
                 "to": {
                     "startLine": 224,
                     "startColumn": 4,
-                    "startOffset": 19078,
-                    "endColumn": 112,
-                    "endOffset": 19186
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 225,
-                    "startColumn": 4,
-                    "startOffset": 19191,
-                    "endColumn": 128,
-                    "endOffset": 19315
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 226,
-                    "startColumn": 4,
-                    "startOffset": 19320,
-                    "endLine": 228,
+                    "startOffset": 18899,
+                    "endLine": 226,
                     "endColumn": 12,
-                    "endOffset": 19523
+                    "endOffset": 19100
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2077,11 +2134,12 @@
             },
             {
                 "to": {
-                    "startLine": 229,
+                    "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 19528,
-                    "endColumn": 123,
-                    "endOffset": 19647
+                    "startOffset": 19105,
+                    "endLine": 229,
+                    "endColumn": 12,
+                    "endOffset": 19329
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2091,9 +2149,9 @@
                 "to": {
                     "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 19652,
-                    "endColumn": 129,
-                    "endOffset": 19777
+                    "startOffset": 19334,
+                    "endColumn": 112,
+                    "endOffset": 19442
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2103,9 +2161,9 @@
                 "to": {
                     "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 19782,
-                    "endColumn": 129,
-                    "endOffset": 19907
+                    "startOffset": 19447,
+                    "endColumn": 128,
+                    "endOffset": 19571
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2115,10 +2173,10 @@
                 "to": {
                     "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 19912,
+                    "startOffset": 19576,
                     "endLine": 234,
                     "endColumn": 12,
-                    "endOffset": 20121
+                    "endOffset": 19779
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2128,9 +2186,9 @@
                 "to": {
                     "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 20126,
-                    "endColumn": 133,
-                    "endOffset": 20255
+                    "startOffset": 19784,
+                    "endColumn": 123,
+                    "endOffset": 19903
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2140,10 +2198,34 @@
                 "to": {
                     "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 20260,
-                    "endLine": 269,
+                    "startOffset": 19908,
+                    "endColumn": 129,
+                    "endOffset": 20033
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 20038,
+                    "endColumn": 129,
+                    "endOffset": 20163
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 20168,
+                    "endLine": 240,
                     "endColumn": 12,
-                    "endOffset": 22738
+                    "endOffset": 20377
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2151,12 +2233,24 @@
             },
             {
                 "to": {
-                    "startLine": 270,
+                    "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 22743,
-                    "endLine": 273,
+                    "startOffset": 20382,
+                    "endColumn": 133,
+                    "endOffset": 20511
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 20516,
+                    "endLine": 275,
                     "endColumn": 12,
-                    "endOffset": 23025
+                    "endOffset": 22994
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2164,36 +2258,12 @@
             },
             {
                 "to": {
-                    "startLine": 274,
+                    "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 23030,
-                    "endLine": 277,
+                    "startOffset": 22999,
+                    "endLine": 279,
                     "endColumn": 12,
-                    "endOffset": 23316
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 278,
-                    "startColumn": 4,
-                    "startOffset": 23321,
-                    "endColumn": 89,
-                    "endOffset": 23406
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 279,
-                    "startColumn": 4,
-                    "startOffset": 23411,
-                    "endColumn": 103,
-                    "endOffset": 23510
+                    "endOffset": 23281
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2203,10 +2273,10 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 23515,
-                    "endLine": 313,
+                    "startOffset": 23286,
+                    "endLine": 283,
                     "endColumn": 12,
-                    "endOffset": 26132
+                    "endOffset": 23572
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2214,12 +2284,11 @@
             },
             {
                 "to": {
-                    "startLine": 314,
+                    "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 26137,
-                    "endLine": 347,
-                    "endColumn": 12,
-                    "endOffset": 28678
+                    "startOffset": 23577,
+                    "endColumn": 89,
+                    "endOffset": 23662
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2227,11 +2296,49 @@
             },
             {
                 "to": {
-                    "startLine": 348,
+                    "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 28683,
+                    "startOffset": 23667,
+                    "endColumn": 103,
+                    "endOffset": 23766
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 23771,
+                    "endLine": 319,
+                    "endColumn": 12,
+                    "endOffset": 26388
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 26393,
+                    "endLine": 353,
+                    "endColumn": 12,
+                    "endOffset": 28934
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 28939,
                     "endColumn": 53,
-                    "endOffset": 28732
+                    "endOffset": 28988
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2239,12 +2346,12 @@
             },
             {
                 "to": {
-                    "startLine": 349,
+                    "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 28737,
-                    "endLine": 395,
+                    "startOffset": 28993,
+                    "endLine": 401,
                     "endColumn": 12,
-                    "endOffset": 32106
+                    "endOffset": 32362
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2252,12 +2359,12 @@
             },
             {
                 "to": {
-                    "startLine": 396,
+                    "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 32111,
-                    "endLine": 444,
+                    "startOffset": 32367,
+                    "endLine": 450,
                     "endColumn": 12,
-                    "endOffset": 35609
+                    "endOffset": 35865
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2265,84 +2372,12 @@
             },
             {
                 "to": {
-                    "startLine": 445,
+                    "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 35614,
-                    "endLine": 470,
+                    "startOffset": 35870,
+                    "endLine": 476,
                     "endColumn": 12,
-                    "endOffset": 37527
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 471,
-                    "startColumn": 4,
-                    "startOffset": 37532,
-                    "endColumn": 65,
-                    "endOffset": 37593
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 472,
-                    "startColumn": 4,
-                    "startOffset": 37598,
-                    "endColumn": 87,
-                    "endOffset": 37681
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 473,
-                    "startColumn": 4,
-                    "startOffset": 37686,
-                    "endColumn": 99,
-                    "endOffset": 37781
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 474,
-                    "startColumn": 4,
-                    "startOffset": 37786,
-                    "endColumn": 101,
-                    "endOffset": 37883
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 475,
-                    "startColumn": 4,
-                    "startOffset": 37888,
-                    "endColumn": 103,
-                    "endOffset": 37987
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 476,
-                    "startColumn": 4,
-                    "startOffset": 37992,
-                    "endColumn": 103,
-                    "endOffset": 38091
+                    "endOffset": 37783
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2352,9 +2387,9 @@
                 "to": {
                     "startLine": 477,
                     "startColumn": 4,
-                    "startOffset": 38096,
-                    "endColumn": 93,
-                    "endOffset": 38185
+                    "startOffset": 37788,
+                    "endColumn": 65,
+                    "endOffset": 37849
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2364,9 +2399,9 @@
                 "to": {
                     "startLine": 478,
                     "startColumn": 4,
-                    "startOffset": 38190,
-                    "endColumn": 113,
-                    "endOffset": 38299
+                    "startOffset": 37854,
+                    "endColumn": 87,
+                    "endOffset": 37937
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2376,9 +2411,9 @@
                 "to": {
                     "startLine": 479,
                     "startColumn": 4,
-                    "startOffset": 38304,
-                    "endColumn": 111,
-                    "endOffset": 38411
+                    "startOffset": 37942,
+                    "endColumn": 99,
+                    "endOffset": 38037
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2388,9 +2423,9 @@
                 "to": {
                     "startLine": 480,
                     "startColumn": 4,
-                    "startOffset": 38416,
-                    "endColumn": 89,
-                    "endOffset": 38501
+                    "startOffset": 38042,
+                    "endColumn": 101,
+                    "endOffset": 38139
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2400,9 +2435,9 @@
                 "to": {
                     "startLine": 481,
                     "startColumn": 4,
-                    "startOffset": 38506,
-                    "endColumn": 107,
-                    "endOffset": 38609
+                    "startOffset": 38144,
+                    "endColumn": 103,
+                    "endOffset": 38243
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2412,9 +2447,9 @@
                 "to": {
                     "startLine": 482,
                     "startColumn": 4,
-                    "startOffset": 38614,
-                    "endColumn": 109,
-                    "endOffset": 38719
+                    "startOffset": 38248,
+                    "endColumn": 103,
+                    "endOffset": 38347
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2424,10 +2459,9 @@
                 "to": {
                     "startLine": 483,
                     "startColumn": 4,
-                    "startOffset": 38724,
-                    "endLine": 497,
-                    "endColumn": 12,
-                    "endOffset": 39872
+                    "startOffset": 38352,
+                    "endColumn": 93,
+                    "endOffset": 38441
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2435,12 +2469,11 @@
             },
             {
                 "to": {
-                    "startLine": 498,
+                    "startLine": 484,
                     "startColumn": 4,
-                    "startOffset": 39877,
-                    "endLine": 502,
-                    "endColumn": 12,
-                    "endOffset": 40226
+                    "startOffset": 38446,
+                    "endColumn": 113,
+                    "endOffset": 38555
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2448,12 +2481,11 @@
             },
             {
                 "to": {
-                    "startLine": 503,
+                    "startLine": 485,
                     "startColumn": 4,
-                    "startOffset": 40231,
-                    "endLine": 507,
-                    "endColumn": 12,
-                    "endOffset": 40463
+                    "startOffset": 38560,
+                    "endColumn": 111,
+                    "endOffset": 38667
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2461,12 +2493,11 @@
             },
             {
                 "to": {
-                    "startLine": 508,
+                    "startLine": 486,
                     "startColumn": 4,
-                    "startOffset": 40468,
-                    "endLine": 516,
-                    "endColumn": 12,
-                    "endOffset": 40937
+                    "startOffset": 38672,
+                    "endColumn": 89,
+                    "endOffset": 38757
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2474,12 +2505,75 @@
             },
             {
                 "to": {
-                    "startLine": 517,
+                    "startLine": 487,
                     "startColumn": 4,
-                    "startOffset": 40942,
+                    "startOffset": 38762,
+                    "endColumn": 107,
+                    "endOffset": 38865
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 488,
+                    "startColumn": 4,
+                    "startOffset": 38870,
+                    "endColumn": 109,
+                    "endOffset": 38975
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 489,
+                    "startColumn": 4,
+                    "startOffset": 38980,
+                    "endLine": 503,
+                    "endColumn": 12,
+                    "endOffset": 40128
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 504,
+                    "startColumn": 4,
+                    "startOffset": 40133,
+                    "endLine": 508,
+                    "endColumn": 12,
+                    "endOffset": 40482
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 509,
+                    "startColumn": 4,
+                    "startOffset": 40487,
+                    "endLine": 513,
+                    "endColumn": 12,
+                    "endOffset": 40719
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 514,
+                    "startColumn": 4,
+                    "startOffset": 40724,
                     "endLine": 522,
                     "endColumn": 12,
-                    "endOffset": 41273
+                    "endOffset": 41193
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2489,10 +2583,10 @@
                 "to": {
                     "startLine": 523,
                     "startColumn": 4,
-                    "startOffset": 41278,
-                    "endLine": 532,
+                    "startOffset": 41198,
+                    "endLine": 528,
                     "endColumn": 12,
-                    "endOffset": 41859
+                    "endOffset": 41529
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2500,11 +2594,24 @@
             },
             {
                 "to": {
-                    "startLine": 533,
+                    "startLine": 529,
                     "startColumn": 4,
-                    "startOffset": 41864,
+                    "startOffset": 41534,
+                    "endLine": 538,
+                    "endColumn": 12,
+                    "endOffset": 42115
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 539,
+                    "startColumn": 4,
+                    "startOffset": 42120,
                     "endColumn": 108,
-                    "endOffset": 41968
+                    "endOffset": 42224
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2512,12 +2619,12 @@
             },
             {
                 "to": {
-                    "startLine": 534,
+                    "startLine": 540,
                     "startColumn": 4,
-                    "startOffset": 41973,
-                    "endLine": 536,
+                    "startOffset": 42229,
+                    "endLine": 542,
                     "endColumn": 12,
-                    "endOffset": 42180
+                    "endOffset": 42436
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2525,12 +2632,12 @@
             },
             {
                 "to": {
-                    "startLine": 537,
+                    "startLine": 543,
                     "startColumn": 4,
-                    "startOffset": 42185,
-                    "endLine": 543,
+                    "startOffset": 42441,
+                    "endLine": 549,
                     "endColumn": 12,
-                    "endOffset": 42656
+                    "endOffset": 42912
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2538,12 +2645,12 @@
             },
             {
                 "to": {
-                    "startLine": 544,
+                    "startLine": 550,
                     "startColumn": 4,
-                    "startOffset": 42661,
-                    "endLine": 550,
+                    "startOffset": 42917,
+                    "endLine": 556,
                     "endColumn": 12,
-                    "endOffset": 43030
+                    "endOffset": 43286
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2551,25 +2658,12 @@
             },
             {
                 "to": {
-                    "startLine": 551,
+                    "startLine": 557,
                     "startColumn": 4,
-                    "startOffset": 43035,
-                    "endLine": 555,
-                    "endColumn": 12,
-                    "endOffset": 43409
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 556,
-                    "startColumn": 4,
-                    "startOffset": 43414,
+                    "startOffset": 43291,
                     "endLine": 561,
                     "endColumn": 12,
-                    "endOffset": 43762
+                    "endOffset": 43665
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2579,10 +2673,10 @@
                 "to": {
                     "startLine": 562,
                     "startColumn": 4,
-                    "startOffset": 43767,
-                    "endLine": 564,
+                    "startOffset": 43670,
+                    "endLine": 567,
                     "endColumn": 12,
-                    "endOffset": 43954
+                    "endOffset": 44018
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2590,12 +2684,12 @@
             },
             {
                 "to": {
-                    "startLine": 565,
+                    "startLine": 568,
                     "startColumn": 4,
-                    "startOffset": 43959,
-                    "endLine": 568,
+                    "startOffset": 44023,
+                    "endLine": 570,
                     "endColumn": 12,
-                    "endOffset": 44213
+                    "endOffset": 44210
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2603,12 +2697,12 @@
             },
             {
                 "to": {
-                    "startLine": 569,
+                    "startLine": 571,
                     "startColumn": 4,
-                    "startOffset": 44218,
-                    "endLine": 575,
+                    "startOffset": 44215,
+                    "endLine": 574,
                     "endColumn": 12,
-                    "endOffset": 44667
+                    "endOffset": 44469
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2616,11 +2710,24 @@
             },
             {
                 "to": {
-                    "startLine": 576,
+                    "startLine": 575,
                     "startColumn": 4,
-                    "startOffset": 44672,
+                    "startOffset": 44474,
+                    "endLine": 581,
+                    "endColumn": 12,
+                    "endOffset": 44923
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 582,
+                    "startColumn": 4,
+                    "startOffset": 44928,
                     "endColumn": 89,
-                    "endOffset": 44757
+                    "endOffset": 45013
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2628,11 +2735,11 @@
             },
             {
                 "to": {
-                    "startLine": 577,
+                    "startLine": 583,
                     "startColumn": 4,
-                    "startOffset": 44762,
+                    "startOffset": 45018,
                     "endColumn": 111,
-                    "endOffset": 44869
+                    "endOffset": 45125
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2640,84 +2747,12 @@
             },
             {
                 "to": {
-                    "startLine": 578,
+                    "startLine": 584,
                     "startColumn": 4,
-                    "startOffset": 44874,
-                    "endLine": 588,
+                    "startOffset": 45130,
+                    "endLine": 594,
                     "endColumn": 12,
-                    "endOffset": 45568
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 589,
-                    "startColumn": 4,
-                    "startOffset": 45573,
-                    "endColumn": 109,
-                    "endOffset": 45678
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 590,
-                    "startColumn": 4,
-                    "startOffset": 45683,
-                    "endColumn": 99,
-                    "endOffset": 45778
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 591,
-                    "startColumn": 4,
-                    "startOffset": 45783,
-                    "endColumn": 111,
-                    "endOffset": 45890
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 592,
-                    "startColumn": 4,
-                    "startOffset": 45895,
-                    "endColumn": 127,
-                    "endOffset": 46018
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 593,
-                    "startColumn": 4,
-                    "startOffset": 46023,
-                    "endColumn": 113,
-                    "endOffset": 46132
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 594,
-                    "startColumn": 4,
-                    "startOffset": 46137,
-                    "endColumn": 129,
-                    "endOffset": 46262
+                    "endOffset": 45824
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2727,9 +2762,9 @@
                 "to": {
                     "startLine": 595,
                     "startColumn": 4,
-                    "startOffset": 46267,
-                    "endColumn": 115,
-                    "endOffset": 46378
+                    "startOffset": 45829,
+                    "endColumn": 109,
+                    "endOffset": 45934
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2739,9 +2774,9 @@
                 "to": {
                     "startLine": 596,
                     "startColumn": 4,
-                    "startOffset": 46383,
-                    "endColumn": 131,
-                    "endOffset": 46510
+                    "startOffset": 45939,
+                    "endColumn": 99,
+                    "endOffset": 46034
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2751,9 +2786,9 @@
                 "to": {
                     "startLine": 597,
                     "startColumn": 4,
-                    "startOffset": 46515,
-                    "endColumn": 115,
-                    "endOffset": 46626
+                    "startOffset": 46039,
+                    "endColumn": 111,
+                    "endOffset": 46146
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2763,9 +2798,9 @@
                 "to": {
                     "startLine": 598,
                     "startColumn": 4,
-                    "startOffset": 46631,
-                    "endColumn": 131,
-                    "endOffset": 46758
+                    "startOffset": 46151,
+                    "endColumn": 127,
+                    "endOffset": 46274
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2775,9 +2810,9 @@
                 "to": {
                     "startLine": 599,
                     "startColumn": 4,
-                    "startOffset": 46763,
-                    "endColumn": 105,
-                    "endOffset": 46864
+                    "startOffset": 46279,
+                    "endColumn": 113,
+                    "endOffset": 46388
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2787,9 +2822,9 @@
                 "to": {
                     "startLine": 600,
                     "startColumn": 4,
-                    "startOffset": 46869,
-                    "endColumn": 125,
-                    "endOffset": 46990
+                    "startOffset": 46393,
+                    "endColumn": 129,
+                    "endOffset": 46518
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2799,9 +2834,9 @@
                 "to": {
                     "startLine": 601,
                     "startColumn": 4,
-                    "startOffset": 46995,
-                    "endColumn": 123,
-                    "endOffset": 47114
+                    "startOffset": 46523,
+                    "endColumn": 115,
+                    "endOffset": 46634
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2811,9 +2846,9 @@
                 "to": {
                     "startLine": 602,
                     "startColumn": 4,
-                    "startOffset": 47119,
-                    "endColumn": 117,
-                    "endOffset": 47232
+                    "startOffset": 46639,
+                    "endColumn": 131,
+                    "endOffset": 46766
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2823,9 +2858,9 @@
                 "to": {
                     "startLine": 603,
                     "startColumn": 4,
-                    "startOffset": 47237,
-                    "endColumn": 119,
-                    "endOffset": 47352
+                    "startOffset": 46771,
+                    "endColumn": 115,
+                    "endOffset": 46882
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2835,9 +2870,9 @@
                 "to": {
                     "startLine": 604,
                     "startColumn": 4,
-                    "startOffset": 47357,
-                    "endColumn": 121,
-                    "endOffset": 47474
+                    "startOffset": 46887,
+                    "endColumn": 131,
+                    "endOffset": 47014
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2847,10 +2882,9 @@
                 "to": {
                     "startLine": 605,
                     "startColumn": 4,
-                    "startOffset": 47479,
-                    "endLine": 613,
-                    "endColumn": 12,
-                    "endOffset": 48227
+                    "startOffset": 47019,
+                    "endColumn": 105,
+                    "endOffset": 47120
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2858,12 +2892,11 @@
             },
             {
                 "to": {
-                    "startLine": 614,
+                    "startLine": 606,
                     "startColumn": 4,
-                    "startOffset": 48232,
-                    "endLine": 618,
-                    "endColumn": 12,
-                    "endOffset": 48596
+                    "startOffset": 47125,
+                    "endColumn": 125,
+                    "endOffset": 47246
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2871,12 +2904,73 @@
             },
             {
                 "to": {
-                    "startLine": 619,
+                    "startLine": 607,
                     "startColumn": 4,
-                    "startOffset": 48601,
+                    "startOffset": 47251,
+                    "endColumn": 123,
+                    "endOffset": 47370
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 608,
+                    "startColumn": 4,
+                    "startOffset": 47375,
+                    "endColumn": 117,
+                    "endOffset": 47488
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 609,
+                    "startColumn": 4,
+                    "startOffset": 47493,
+                    "endColumn": 119,
+                    "endOffset": 47608
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 610,
+                    "startColumn": 4,
+                    "startOffset": 47613,
+                    "endColumn": 121,
+                    "endOffset": 47730
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 611,
+                    "startColumn": 4,
+                    "startOffset": 47735,
+                    "endLine": 619,
+                    "endColumn": 12,
+                    "endOffset": 48483
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 620,
+                    "startColumn": 4,
+                    "startOffset": 48488,
                     "endLine": 624,
                     "endColumn": 12,
-                    "endOffset": 49152
+                    "endOffset": 48852
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2886,46 +2980,10 @@
                 "to": {
                     "startLine": 625,
                     "startColumn": 4,
-                    "startOffset": 49157,
-                    "endColumn": 112,
-                    "endOffset": 49265
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 626,
-                    "startColumn": 4,
-                    "startOffset": 49270,
-                    "endColumn": 126,
-                    "endOffset": 49392
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 627,
-                    "startColumn": 4,
-                    "startOffset": 49397,
-                    "endColumn": 114,
-                    "endOffset": 49507
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 628,
-                    "startColumn": 4,
-                    "startOffset": 49512,
+                    "startOffset": 48857,
                     "endLine": 630,
                     "endColumn": 12,
-                    "endOffset": 49743
+                    "endOffset": 49408
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2935,9 +2993,9 @@
                 "to": {
                     "startLine": 631,
                     "startColumn": 4,
-                    "startOffset": 49748,
-                    "endColumn": 114,
-                    "endOffset": 49858
+                    "startOffset": 49413,
+                    "endColumn": 112,
+                    "endOffset": 49521
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2947,9 +3005,9 @@
                 "to": {
                     "startLine": 632,
                     "startColumn": 4,
-                    "startOffset": 49863,
-                    "endColumn": 128,
-                    "endOffset": 49987
+                    "startOffset": 49526,
+                    "endColumn": 126,
+                    "endOffset": 49648
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2959,9 +3017,9 @@
                 "to": {
                     "startLine": 633,
                     "startColumn": 4,
-                    "startOffset": 49992,
-                    "endColumn": 104,
-                    "endOffset": 50092
+                    "startOffset": 49653,
+                    "endColumn": 114,
+                    "endOffset": 49763
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2971,9 +3029,10 @@
                 "to": {
                     "startLine": 634,
                     "startColumn": 4,
-                    "startOffset": 50097,
-                    "endColumn": 120,
-                    "endOffset": 50213
+                    "startOffset": 49768,
+                    "endLine": 636,
+                    "endColumn": 12,
+                    "endOffset": 49999
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2981,12 +3040,11 @@
             },
             {
                 "to": {
-                    "startLine": 635,
+                    "startLine": 637,
                     "startColumn": 4,
-                    "startOffset": 50218,
-                    "endLine": 637,
-                    "endColumn": 12,
-                    "endOffset": 50438
+                    "startOffset": 50004,
+                    "endColumn": 114,
+                    "endOffset": 50114
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -2996,10 +3054,9 @@
                 "to": {
                     "startLine": 638,
                     "startColumn": 4,
-                    "startOffset": 50443,
-                    "endLine": 641,
-                    "endColumn": 12,
-                    "endOffset": 50803
+                    "startOffset": 50119,
+                    "endColumn": 128,
+                    "endOffset": 50243
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3007,12 +3064,11 @@
             },
             {
                 "to": {
-                    "startLine": 642,
+                    "startLine": 639,
                     "startColumn": 4,
-                    "startOffset": 50808,
-                    "endLine": 644,
-                    "endColumn": 12,
-                    "endOffset": 51020
+                    "startOffset": 50248,
+                    "endColumn": 104,
+                    "endOffset": 50348
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3020,24 +3076,50 @@
             },
             {
                 "to": {
-                    "startLine": 645,
+                    "startLine": 640,
                     "startColumn": 4,
-                    "startOffset": 51025,
-                    "endLine": 649,
-                    "endColumn": 12,
-                    "endOffset": 51407
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 650,
-                    "startColumn": 4,
-                    "startOffset": 51412,
+                    "startOffset": 50353,
                     "endColumn": 120,
-                    "endOffset": 51528
+                    "endOffset": 50469
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 641,
+                    "startColumn": 4,
+                    "startOffset": 50474,
+                    "endLine": 643,
+                    "endColumn": 12,
+                    "endOffset": 50694
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 644,
+                    "startColumn": 4,
+                    "startOffset": 50699,
+                    "endLine": 647,
+                    "endColumn": 12,
+                    "endOffset": 51059
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 648,
+                    "startColumn": 4,
+                    "startOffset": 51064,
+                    "endLine": 650,
+                    "endColumn": 12,
+                    "endOffset": 51276
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3047,10 +3129,10 @@
                 "to": {
                     "startLine": 651,
                     "startColumn": 4,
-                    "startOffset": 51533,
-                    "endLine": 653,
+                    "startOffset": 51281,
+                    "endLine": 655,
                     "endColumn": 12,
-                    "endOffset": 51727
+                    "endOffset": 51663
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3058,12 +3140,11 @@
             },
             {
                 "to": {
-                    "startLine": 654,
+                    "startLine": 656,
                     "startColumn": 4,
-                    "startOffset": 51732,
-                    "endLine": 660,
-                    "endColumn": 12,
-                    "endOffset": 52189
+                    "startOffset": 51668,
+                    "endColumn": 120,
+                    "endOffset": 51784
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3071,12 +3152,12 @@
             },
             {
                 "to": {
-                    "startLine": 661,
+                    "startLine": 657,
                     "startColumn": 4,
-                    "startOffset": 52194,
-                    "endLine": 665,
+                    "startOffset": 51789,
+                    "endLine": 659,
                     "endColumn": 12,
-                    "endOffset": 52568
+                    "endOffset": 51983
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3084,11 +3165,12 @@
             },
             {
                 "to": {
-                    "startLine": 666,
+                    "startLine": 660,
                     "startColumn": 4,
-                    "startOffset": 52573,
-                    "endColumn": 121,
-                    "endOffset": 52690
+                    "startOffset": 51988,
+                    "endLine": 666,
+                    "endColumn": 12,
+                    "endOffset": 52445
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3098,57 +3180,10 @@
                 "to": {
                     "startLine": 667,
                     "startColumn": 4,
-                    "startOffset": 52695,
-                    "endColumn": 115,
-                    "endOffset": 52806
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 668,
-                    "startColumn": 4,
-                    "startOffset": 52811,
-                    "endColumn": 99,
-                    "endOffset": 52906
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 669,
-                    "startColumn": 4,
-                    "startOffset": 52911,
-                    "endColumn": 114,
-                    "endOffset": 53021
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 670,
-                    "startColumn": 4,
-                    "startOffset": 53026,
-                    "endColumn": 103,
-                    "endOffset": 53125
-                },
-                "from": {
-                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 671,
-                    "startColumn": 4,
-                    "startOffset": 53130,
-                    "endColumn": 95,
-                    "endOffset": 53221
+                    "startOffset": 52450,
+                    "endLine": 671,
+                    "endColumn": 12,
+                    "endOffset": 52824
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3158,9 +3193,9 @@
                 "to": {
                     "startLine": 672,
                     "startColumn": 4,
-                    "startOffset": 53226,
-                    "endColumn": 87,
-                    "endOffset": 53309
+                    "startOffset": 52829,
+                    "endColumn": 121,
+                    "endOffset": 52946
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3170,9 +3205,9 @@
                 "to": {
                     "startLine": 673,
                     "startColumn": 4,
-                    "startOffset": 53314,
-                    "endColumn": 91,
-                    "endOffset": 53401
+                    "startOffset": 52951,
+                    "endColumn": 115,
+                    "endOffset": 53062
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3182,9 +3217,9 @@
                 "to": {
                     "startLine": 674,
                     "startColumn": 4,
-                    "startOffset": 53406,
-                    "endColumn": 113,
-                    "endOffset": 53515
+                    "startOffset": 53067,
+                    "endColumn": 99,
+                    "endOffset": 53162
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
@@ -3194,9 +3229,81 @@
                 "to": {
                     "startLine": 675,
                     "startColumn": 4,
-                    "startOffset": 53520,
+                    "startOffset": 53167,
+                    "endColumn": 114,
+                    "endOffset": 53277
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 676,
+                    "startColumn": 4,
+                    "startOffset": 53282,
+                    "endColumn": 103,
+                    "endOffset": 53381
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 677,
+                    "startColumn": 4,
+                    "startOffset": 53386,
+                    "endColumn": 95,
+                    "endOffset": 53477
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 678,
+                    "startColumn": 4,
+                    "startOffset": 53482,
+                    "endColumn": 87,
+                    "endOffset": 53565
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 679,
+                    "startColumn": 4,
+                    "startOffset": 53570,
+                    "endColumn": 91,
+                    "endOffset": 53657
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 680,
+                    "startColumn": 4,
+                    "startOffset": 53662,
+                    "endColumn": 113,
+                    "endOffset": 53771
+                },
+                "from": {
+                    "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 681,
+                    "startColumn": 4,
+                    "startOffset": 53776,
                     "endColumn": 102,
-                    "endOffset": 53618
+                    "endOffset": 53874
                 },
                 "from": {
                     "file": "/home/hxs123/Desktop/CapitalOneSummit/alarm-clock/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/values/values.xml"

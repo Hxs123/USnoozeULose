@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.dinhdai.app.alarm.Alarm;
+import com.dinhdai.app.alarm.R;
 import com.dinhdai.app.alarm.preferences.AlarmPreference.Type;
 
 import android.content.Context;
@@ -36,8 +37,8 @@ public class AlarmPreferenceListAdapter extends BaseAdapter implements Serializa
     private Context context;
     private Alarm alarm;
     private List<AlarmPreference> preferences = new ArrayList<AlarmPreference>();
-    private final String[] repeatDays = {"Chủ Nhật", "Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy"};
-    private final String[] alarmDifficulties = {"Dễ", "Trung Bình", "Khó"};
+    private final String[] repeatDays = {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
+    private final String[] alarmDifficulties = {"Easy","Medium","Hard"};
 
     private String[] alarmTones;
     private String[] alarmTonePaths;
@@ -151,21 +152,21 @@ public class AlarmPreferenceListAdapter extends BaseAdapter implements Serializa
     public void setMathAlarm(Alarm alarm) {
         this.alarm = alarm;
         preferences.clear();
-        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_ACTIVE, "Bật Báo Thức", null, null, alarm.getAlarmActive(), Type.BOOLEAN));
-        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_NAME, "Nhãn", alarm.getAlarmName(), null, alarm.getAlarmName(), Type.STRING));
-        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_TIME, "Thời Gian", alarm.getAlarmTimeString(), null, alarm.getAlarmTime(), Type.TIME));
-        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_REPEAT, "Lặp Lại", alarm.getRepeatDaysString(), repeatDays, alarm.getDays(), Type.MULTIPLE_LIST));
+        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_ACTIVE, context.getString(R.string.active), null, null, alarm.getAlarmActive(), Type.BOOLEAN));
+        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_NAME, context.getString(R.string.label), alarm.getAlarmName(), null, alarm.getAlarmName(), Type.STRING));
+        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_TIME, context.getString(R.string.time), alarm.getAlarmTimeString(), null, alarm.getAlarmTime(), Type.TIME));
+        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_REPEAT, context.getString(R.string.repeat), alarm.getRepeatDaysString(), repeatDays, alarm.getDays(), Type.MULTIPLE_LIST));
 
         Uri alarmToneUri = Uri.parse(alarm.getAlarmTonePath());
         Ringtone alarmTone = RingtoneManager.getRingtone(getContext(), alarmToneUri);
 
         if (alarmTone instanceof Ringtone && !alarm.getAlarmTonePath().equalsIgnoreCase("")) {
-            preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_TONE, "Nhạc Chuông", alarmTone.getTitle(getContext()), alarmTones, alarm.getAlarmTonePath(), Type.LIST));
+            preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_TONE, context.getString(R.string.ringtone), alarmTone.getTitle(getContext()), alarmTones, alarm.getAlarmTonePath(), Type.LIST));
         } else {
-            preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_TONE, "Nhạc Chuông", getAlarmTones()[0], alarmTones, null, Type.LIST));
+            preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_TONE, context.getString(R.string.ringtone), getAlarmTones()[0], alarmTones, null, Type.LIST));
         }
 
-        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_VIBRATE, "Rung", null, null, alarm.getVibrate(), Type.BOOLEAN));
+        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_VIBRATE, context.getString(R.string.vibrate), null, null, alarm.getVibrate(), Type.BOOLEAN));
     }
 
 
