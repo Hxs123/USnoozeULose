@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/hxs123/Desktop/CapitalOneSummit/USnoozeULose/Alarm-Clock/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/home/hxs123/Desktop/CapitalOneSummit/USnoozeULose/Alarm-Clock/app/src/main/res/menu/menu.xml"
+    },
+    {
         "merged": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/res/merged/debug/menu/menu.xml",
         "source": "/home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/res/menu/menu.xml"
     }
