@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:15:1-95:12
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:15:1-88:12
 	package
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:16:5-36
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:16:5-41
 		INJECTED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml
 		INJECTED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -47,7 +47,7 @@ ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main
 	android:name
 		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:28:19-74
 application
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:30:5-93:19
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:30:5-86:19
 MERGED from [com.android.support:appcompat-v7:18.0.0] /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/AndroidManifest.xml:19:5-20
 	android:label
 		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:33:9-41
@@ -57,12 +57,12 @@ MERGED from [com.android.support:appcompat-v7:18.0.0] /home/np/Downloads/USnooze
 		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:32:9-45
 	android:theme
 		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:34:9-67
-activity#com.dinhdai.app.alarm.activities.MainActivity
+activity#com.usnoozeulose.app.alarm.activities.MainActivity
 ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:35:9-43:20
 	android:label
 		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:37:13-45
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:36:13-73
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:36:13-78
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
@@ -73,77 +73,65 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:41:17-77
 	android:name
 		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:41:27-74
-activity#com.dinhdai.app.alarm.activities.ClockActivity
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:44:9-47:20
+activity#com.usnoozeulose.app.alarm.activities.AlarmActivity
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:45:9-49:20
 	android:label
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:46:13-45
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:47:13-45
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:45:13-74
-activity#com.dinhdai.app.alarm.activities.StopwatchActivity
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:48:9-51:20
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:46:13-79
+activity#com.usnoozeulose.app.alarm.preferences.AlarmPreferencesActivity
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:51:9-59:20
 	android:label
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:50:13-45
-	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:49:13-78
-activity#com.dinhdai.app.alarm.activities.AlarmActivity
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:53:9-56:20
-	android:label
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:55:13-45
-	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:54:13-74
-activity#com.dinhdai.app.alarm.preferences.AlarmPreferencesActivity
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:58:9-66:20
-	android:label
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:60:13-45
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:53:13-45
 	android:parentActivityName
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:61:13-88
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:54:13-93
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:59:13-86
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:52:13-91
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:63:10-65:79
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:56:10-58:84
 	android:value
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:65:14-76
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:58:14-81
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:64:14-60
-service#com.dinhdai.app.alarm.service.AlarmService
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:68:9-74:19
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:57:14-60
+service#com.usnoozeulose.app.alarm.service.AlarmService
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:61:9-67:19
 	android:process
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:69:13-65
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:62:13-65
 	android:label
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:72:13-45
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:65:13-45
 	android:icon
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:71:13-49
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:64:13-49
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:70:13-70
-receiver#com.dinhdai.app.alarm.service.AlarmServiceBroadcastReceiver
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:75:3-79:20
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:63:13-75
+receiver#com.usnoozeulose.app.alarm.service.AlarmServiceBroadcastReceiver
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:68:3-72:20
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:75:13-66
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:68:13-92
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:76:13-78:29
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:69:13-71:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:77:17-79
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:70:17-79
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:77:25-76
-activity#com.dinhdai.app.alarm.alert.AlarmAlertActivity
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:81:9-85:20
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:70:25-76
+activity#com.usnoozeulose.app.alarm.alert.AlarmAlertActivity
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:74:9-78:20
 	android:screenOrientation
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:84:13-49
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:77:13-49
 	android:label
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:83:13-45
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:76:13-45
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:82:13-76
-receiver#com.dinhdai.app.alarm.alert.AlarmAlertBroadcastReciever
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:86:3-87:20
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:75:13-81
+receiver#com.usnoozeulose.app.alarm.alert.AlarmAlertBroadcastReciever
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:79:3-80:20
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:86:13-83
-receiver#com.dinhdai.app.alarm.telephony.PhoneStateChangedBroadcastReceiver
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:88:9-92:20
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:79:13-88
+receiver#com.usnoozeulose.app.alarm.telephony.PhoneStateChangedBroadcastReceiver
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:81:9-85:20
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:88:19-81
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:81:19-107
 intent-filter#android.intent.action.PHONE_STATE
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:89:13-91:29
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:82:13-84:29
 action#android.intent.action.PHONE_STATE
-ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:90:17-76
+ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:83:17-76
 	android:name
-		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:90:25-73
+		ADDED from /home/np/Downloads/USnoozeULose/USnoozeULose/Alarm-Clock/app/src/main/AndroidManifest.xml:83:25-73

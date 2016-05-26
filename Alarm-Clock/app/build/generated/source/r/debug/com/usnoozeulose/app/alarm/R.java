@@ -1112,7 +1112,7 @@ containing a value of this type.
             0x7f01004d, 0x7f01004e, 0x7f01004f
         };
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#background}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1122,7 +1122,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1134,7 +1134,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1146,7 +1146,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1156,7 +1156,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1177,7 +1177,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1187,7 +1187,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#height}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1203,7 +1203,7 @@ containing a value of this type.
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1213,7 +1213,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1223,7 +1223,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1233,7 +1233,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1249,7 +1249,7 @@ containing a value of this type.
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1259,7 +1259,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1277,7 +1277,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1293,7 +1293,7 @@ containing a value of this type.
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1303,7 +1303,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1317,7 +1317,7 @@ containing a value of this type.
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1327,7 +1327,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#title}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1341,7 +1341,7 @@ containing a value of this type.
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1387,7 +1387,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010050, 0x7f010051, 0x7f010052
         };
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#windowActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -1401,7 +1401,7 @@ containing a value of this type.
         */
         public static final int ActionBarWindow_windowActionBar = 0;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -1415,7 +1415,7 @@ containing a value of this type.
         */
         public static final int ActionBarWindow_windowActionBarOverlay = 1;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#windowSplitActionBar}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#windowSplitActionBar}
           attribute's value can be found in the {@link #ActionBarWindow} array.
 
 
@@ -1475,7 +1475,7 @@ containing a value of this type.
             0x7f010049
         };
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#background}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -1485,7 +1485,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -1497,7 +1497,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#height}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -1513,7 +1513,7 @@ containing a value of this type.
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -1523,7 +1523,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -1548,7 +1548,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010053, 0x7f010054
         };
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -1558,7 +1558,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -1585,7 +1585,7 @@ containing a value of this type.
             0x7f010055
         };
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
@@ -1613,7 +1613,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010046, 0x7f010056, 0x7f010057
         };
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutICS} array.
 
 
@@ -1623,7 +1623,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int LinearLayoutICS_divider = 0;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutICS} array.
 
 
@@ -1639,7 +1639,7 @@ containing a value of this type.
         */
         public static final int LinearLayoutICS_dividerPadding = 2;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutICS} array.
 
 
@@ -1767,7 +1767,7 @@ containing a value of this type.
             0x7f01005b
         };
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -1777,7 +1777,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -1791,7 +1791,7 @@ containing a value of this type.
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -1883,7 +1883,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2019,7 +2019,7 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -2033,7 +2033,7 @@ containing a value of this type.
         */
         public static final int SearchView_iconifiedByDefault = 3;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -2116,7 +2116,7 @@ containing a value of this type.
         */
         public static final int Spinner_android_popupBackground = 2;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -2130,7 +2130,7 @@ containing a value of this type.
         */
         public static final int Spinner_disableChildrenWhenDisabled = 9;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -2140,7 +2140,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_popupPromptView = 8;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -2150,7 +2150,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_prompt = 6;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -2191,7 +2191,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010066, 0x7f010067
         };
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -2201,7 +2201,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_actionDropDownStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -2217,7 +2217,7 @@ containing a value of this type.
         */
         public static final int Theme_dropdownListPreferredItemHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -2227,7 +2227,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_listChoiceBackgroundIndicator = 5;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -2237,7 +2237,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_panelMenuListTheme = 4;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -2253,7 +2253,7 @@ containing a value of this type.
         */
         public static final int Theme_panelMenuListWidth = 3;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -2286,7 +2286,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -2302,7 +2302,7 @@ containing a value of this type.
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link com.usnoozeulose.app.alarm.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.dinhdai.app.alarm.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
