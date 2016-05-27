@@ -120,11 +120,12 @@ public class AlarmPreferenceListAdapter extends BaseAdapter implements Serializa
     }
 
     public Alarm getMathAlarm() {
+//        alarm.setAlarmActive(true);
         for (AlarmPreference preference : preferences) {
             switch (preference.getKey()) {
-                case ALARM_ACTIVE:
-                    alarm.setAlarmActive((Boolean) preference.getValue());
-                    break;
+//                case ALARM_ACTIVE:
+//                    alarm.setAlarmActive((Boolean) preference.getValue());
+//                    break;
                 case ALARM_NAME:
                     alarm.setAlarmName((String) preference.getValue());
                     break;
@@ -152,7 +153,7 @@ public class AlarmPreferenceListAdapter extends BaseAdapter implements Serializa
     public void setMathAlarm(Alarm alarm) {
         this.alarm = alarm;
         preferences.clear();
-        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_ACTIVE, context.getString(R.string.active), null, null, alarm.getAlarmActive(), Type.BOOLEAN));
+//        preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_ACTIVE, context.getString(R.string.active), null, null, alarm.getAlarmActive(), Type.BOOLEAN));
         preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_NAME, context.getString(R.string.label), alarm.getAlarmName(), null, alarm.getAlarmName(), Type.STRING));
         preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_TIME, context.getString(R.string.time), alarm.getAlarmTimeString(), null, alarm.getAlarmTime(), Type.TIME));
         preferences.add(new AlarmPreference(AlarmPreference.Key.ALARM_REPEAT, context.getString(R.string.repeat), alarm.getRepeatDaysString(), repeatDays, alarm.getDays(), Type.MULTIPLE_LIST));

@@ -57,7 +57,7 @@ public class AlarmListAdapter extends BaseAdapter {
 	public View getView(int position, View view, final ViewGroup viewGroup) {
 		if (null == view)
 			view = LayoutInflater.from(alarmActivity).inflate(
-					R.layout.list_item_alarm, null);
+					R.layout.list_item_alarm, null	);
 
 		Alarm alarm = (Alarm) getItem(position);
 
@@ -70,13 +70,15 @@ public class AlarmListAdapter extends BaseAdapter {
 		aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 			@Override
 			public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-				Alarm alarm = (Alarm) getItem((Integer) aSwitch.getTag());
-				alarm.setAlarmActive(b);
-				Database.update(alarm);
-				alarmActivity.callMathAlarmScheduleService();
-				if (aSwitch.isChecked()) {
-					Toast.makeText(alarmActivity, alarm.getTimeUntilNextAlarmMessage(), Toast.LENGTH_SHORT).show();
-					setSwitchesFalse(aSwitch, alarm, viewGroup);
+				if (compoundButton.isPressed()) {
+					Alarm alarm = (Alarm) getItem((Integer) aSwitch.getTag());
+					alarm.setAlarmActive(b);
+					Database.update(alarm);
+					alarmActivity.callMathAlarmScheduleService();
+					if (aSwitch.isChecked()) {
+						Toast.makeText(alarmActivity, alarm.getTimeUntilNextAlarmMessage(), Toast.LENGTH_SHORT).show();
+						setSwitchesFalse(aSwitch, alarm, viewGroup);
+					}
 				}
 			}
 		});

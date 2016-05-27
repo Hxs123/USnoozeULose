@@ -99,9 +99,9 @@ public class AlarmPreferencesActivity extends BaseActivity {
                         boolean checked = !checkedTextView.isChecked();
                         ((CheckedTextView) v).setChecked(checked);
                         switch (alarmPreference.getKey()) {
-                            case ALARM_ACTIVE:
-                                alarm.setAlarmActive(checked);
-                                break;
+//                            case ALARM_ACTIVE:
+//                                alarm.setAlarmActive(checked);
+//                                break;
                             case ALARM_VIBRATE:
                                 alarm.setVibrate(checked);
                                 if (checked) {
@@ -348,7 +348,10 @@ public class AlarmPreferencesActivity extends BaseActivity {
                 Database.update(getMathAlarm());
             }
             callMathAlarmScheduleService();
-            Toast.makeText(AlarmPreferencesActivity.this, getMathAlarm().getTimeUntilNextAlarmMessage(), Toast.LENGTH_LONG).show();
+            if (alarm.getAlarmActive()) {
+                Toast.makeText(AlarmPreferencesActivity.this, getMathAlarm().getTimeUntilNextAlarmMessage(), Toast.LENGTH_LONG).show();
+                /* Turn off the other switches*/
+            }
             finish();
         } else if (v.getId() == R.id.cancelAlarmButton) {
             if (isEditAlarm) {
