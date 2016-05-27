@@ -80,7 +80,7 @@ public class Alarm implements Serializable {
 	}
 	private static final long serialVersionUID = 8699489847426803789L;
 	private int id;
-	private Boolean alarmActive = true;
+	private Boolean alarmActive = false;
 	private Calendar alarmTime = Calendar.getInstance();
 	private Day[] days = {Day.MONDAY,Day.TUESDAY,Day.WEDNESDAY,Day.THURSDAY,Day.FRIDAY,Day.SATURDAY,Day.SUNDAY};	
 	private String alarmTonePath = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM).toString();
