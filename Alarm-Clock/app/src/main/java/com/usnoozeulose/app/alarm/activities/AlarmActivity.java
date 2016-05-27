@@ -16,6 +16,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 import android.widget.AdapterView;
@@ -23,8 +24,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.Button;
 import android.widget.ListView;
-
-import java.util.List;
+import android.widget.Toast;
 
 import com.usnoozeulose.app.alarm.Alarm;
 import com.usnoozeulose.app.alarm.AlarmListAdapter;
@@ -33,16 +33,39 @@ import com.usnoozeulose.app.alarm.R;
 import com.usnoozeulose.app.alarm.database.Database;
 import com.usnoozeulose.app.alarm.preferences.AlarmPreferencesActivity;
 
+import java.util.List;
+
 public class AlarmActivity extends BaseActivity implements View.OnClickListener {
 
     private ListView mathAlarmListView;
     private AlarmListAdapter alarmListAdapter;
     private Button addAlarmButton;
+    private int total;
+    private Vibrator vibrator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarm);
+
+        vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+        vibrator.cancel();
+
+        Bundle bundle = this.getIntent().getExtras();
+        if(bundle != null){
+            if(bundle.getSerializable("total") == null){
+                total = 0;
+            }
+            else
+                total = (Integer) bundle.getSerializable("total");
+
+            if(total != 0){
+                //BILL THE PERSON ACTUALLY RIGHT HERE
+            }
+            final AlarmActivity alarmAlertInstance = this;
+            Toast.makeText(alarmAlertInstance, "You were billed: " + total + " dollars!", Toast.LENGTH_LONG).show();
+        }
+
 
         addAlarmButton = (Button) findViewById(R.id.addAlarmButton);
         addAlarmButton.setOnClickListener(this);

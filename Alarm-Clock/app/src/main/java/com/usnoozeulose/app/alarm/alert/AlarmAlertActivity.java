@@ -11,10 +11,9 @@
  */
 package com.usnoozeulose.app.alarm.alert;
 
-import com.usnoozeulose.app.alarm.Alarm;
-import com.usnoozeulose.app.alarm.R;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -24,9 +23,9 @@ import android.os.Vibrator;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import android.view.HapticFeedbackConstants;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.HapticFeedbackConstants;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
@@ -36,8 +35,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class AlarmAlertActivity extends Activity implements OnClickListener {
+import com.usnoozeulose.app.alarm.Alarm;
+import com.usnoozeulose.app.alarm.R;
 
+import java.util.concurrent.TimeUnit;
+
+public class AlarmAlertActivity extends Activity implements OnClickListener {
+	private int total;
 	private final int SNOOZE_LENGTH = 300000; //5000;
 	private final int MAX_SNOOZES = 3;
 	private int snoozeCount;
@@ -68,6 +72,11 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 
 		Bundle bundle = this.getIntent().getExtras();
 		alarm = (Alarm) bundle.getSerializable("alarm");
+		if(bundle.getSerializable("total") == null){
+			total = 0;
+		}
+		else
+			total = (Integer) bundle.getSerializable("total");
 
 		this.setTitle(alarm.getAlarmName());
 
@@ -117,7 +126,6 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 				PhoneStateListener.LISTEN_CALL_STATE);
 
 		startAlarm();
-
 	}
 
 	@Override
@@ -127,6 +135,32 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 	}
 
 	private void startAlarm() {
+		final AlarmAlertActivity alarmAlertInstance = this;
+		Toast.makeText(alarmAlertInstance, "You owe: " + total + " dollars!", Toast.LENGTH_LONG).show();
+		countDownTimer = new CountDownTimer(15000, 1000) {
+			@Override
+			public void onTick(long l) {
+				int minutes = (int) TimeUnit.MILLISECONDS.toMinutes( l);
+				int seconds = (int) TimeUnit.MILLISECONDS.toSeconds(l)-
+						(int) TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(l));
+
+				alarmLabelTextView.setText("Time Left: "+String.format("%d min, %d sec", minutes, seconds));
+			}
+
+			/* Handles the end of the snooze cycle.
+            * Displays a message saying that snooze time is over and displays the buttons again
+            * Starts the alarm again unless the snooze count is greater than MAX_SNOOZES. */
+			public void onFinish() {
+				mediaPlayer.stop();
+				mediaPlayer.release();
+				vibrator.cancel();
+				Intent intent = new Intent(getApplicationContext(), BallActivity.class);
+				intent.putExtra("alarm", alarm);
+				intent.putExtra("total", total);
+				startActivity(intent);
+			}
+		};
+		countDownTimer.start();
 
 		if (alarm.getAlarmTonePath() != "") {
 			mediaPlayer = new MediaPlayer();
@@ -197,6 +231,7 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
+		countDownTimer.cancel();
 		if (!alarmActive)
 			return;
 		String button = (String) v.getTag();
@@ -218,6 +253,11 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 			if (countDownTimer != null) {
 				countDownTimer.cancel();
 			}
+			vibrator.cancel();
+			Intent intent = new Intent(getApplicationContext(), BallActivity.class);
+			intent.putExtra("alarm", alarm);
+			intent.putExtra("total", total);
+			startActivity(intent);
             this.finish();
         }
 		/*
@@ -225,6 +265,7 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 		 *	Creates a countdowntimer that will reactivate the alarm.
 		 */
 		if (v.getId() == R.id.snoozeButton) {
+			countDownTimer.cancel();
 			/* To-Do Snooze Logic*/
 			Toast.makeText(this, "Snoozing and Losing!!!", Toast.LENGTH_SHORT).show();
 			final AlarmAlertActivity alarmAlertInstance = this;
@@ -238,28 +279,29 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 //			final View alarmView = findViewById(R.id.turnAlarmOffButton);
 //			alarmView.setVisibility(View.GONE);
 
+			vibrator.cancel();
+
 			/* Creates a timer for snoozing and then starts it.*/
-			countDownTimer = new CountDownTimer(SNOOZE_LENGTH, 1000) {
+			countDownTimer = new CountDownTimer(15000, 1000) {
 				@Override
 				public void onTick(long l) {
+					int minutes = (int) TimeUnit.MILLISECONDS.toMinutes( l);
+					int seconds = (int) TimeUnit.MILLISECONDS.toSeconds(l)-
+							(int) TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(l));
 
+					alarmLabelTextView.setText("Time Left: "+String.format("%d min, %d sec", minutes, seconds));
 				}
 
 				/* Handles the end of the snooze cycle.
 				* Displays a message saying that snooze time is over and displays the buttons again
 				* Starts the alarm again unless the snooze count is greater than MAX_SNOOZES. */
 				public void onFinish() {
-					if (snoozeCount < MAX_SNOOZES) {
-						Toast.makeText(alarmAlertInstance, "Snooze Time is Over!!!", Toast.LENGTH_LONG).show();
-						startAlarm();
-						snoozeView.setVisibility(View.VISIBLE);
-//						alarmView.setVisibility(View.VISIBLE);
-					}
-					else {
-						Toast.makeText(alarmAlertInstance, "Too Many Snoozes, you're on your own",
-								       Toast.LENGTH_LONG).show();
-						alarmAlertInstance.finish();
-					}
+					//Toast.makeText(alarmAlertInstance, "BILLED YOU BAD!!!", Toast.LENGTH_LONG).show();
+					total += 5;
+					//Toast.makeText(alarmAlertInstance, "Snooze Time is Over!!!", Toast.LENGTH_LONG).show();
+					startAlarm();
+					snoozeView.setVisibility(View.VISIBLE);
+//					alarmView.setVisibility(View.VISIBLE);
 				}
 			};
 			countDownTimer.start();
