@@ -30,6 +30,7 @@ import android.widget.CheckedTextView;
 import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.Switch;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -348,7 +349,11 @@ public class AlarmPreferencesActivity extends BaseActivity {
                 Database.update(getMathAlarm());
             }
             callMathAlarmScheduleService();
+//            Switch aSwitch = (Switch) v.findViewById(R.id.alarmOnOffSwitch);
+//            aSwitch.setChecked(false);
+//            alarm.setAlarmActive(false);
             if (alarm.getAlarmActive()) {
+//                alarm.setAlarmActive(false);
                 Toast.makeText(AlarmPreferencesActivity.this, getMathAlarm().getTimeUntilNextAlarmMessage(), Toast.LENGTH_LONG).show();
                 /* Turn off the other switches*/
             }
