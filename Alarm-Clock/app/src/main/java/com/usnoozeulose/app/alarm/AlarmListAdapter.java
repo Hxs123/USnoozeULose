@@ -62,30 +62,30 @@ public class AlarmListAdapter extends BaseAdapter {
 		Alarm alarm = (Alarm) getItem(position);
 
 		final Switch aSwitch = (Switch) view.findViewById(R.id.alarmOnOffSwitch);
-        aSwitch.setChecked(alarm.getAlarmActive());
-        aSwitch.setTag(position);
-        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                Alarm alarm = (Alarm) getItem((Integer) aSwitch.getTag());
-                alarm.setAlarmActive(b);
-                Database.update(alarm);
-                alarmActivity.callMathAlarmScheduleService();
-                if (aSwitch.isChecked()) {
-                    Toast.makeText(alarmActivity, alarm.getTimeUntilNextAlarmMessage(), Toast.LENGTH_LONG).show();
-                }
-            }
-        });
-		 
+		aSwitch.setChecked(alarm.getAlarmActive());
+		aSwitch.setTag(position);
+		aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+			@Override
+			public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+				Alarm alarm = (Alarm) getItem((Integer) aSwitch.getTag());
+				alarm.setAlarmActive(b);
+				Database.update(alarm);
+				alarmActivity.callMathAlarmScheduleService();
+				if (aSwitch.isChecked()) {
+					Toast.makeText(alarmActivity, alarm.getTimeUntilNextAlarmMessage(), Toast.LENGTH_LONG).show();
+				}
+			}
+		});
+
 		TextView alarmTimeView = (TextView) view
 				.findViewById(R.id.textView_alarm_time);
 		alarmTimeView.setText(alarm.getAlarmTimeString());
 
-		
-			TextView alarmDaysView = (TextView) view
-					.findViewById(R.id.textView_alarm_days);
-			alarmDaysView.setText(alarm.getRepeatDaysString());
-		
+
+		TextView alarmDaysView = (TextView) view
+				.findViewById(R.id.textView_alarm_days);
+		alarmDaysView.setText(alarm.getRepeatDaysString());
+
 
 		return view;
 	}

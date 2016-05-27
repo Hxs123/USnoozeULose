@@ -4,5 +4,6 @@ Alarm-Clock/local.properties
 Alarm-Clock/.idea/workspace.xml
 Alarm-Clock/.idea/libraries
 Alarm-Clock/.DS_Store
-Alarm-Clock/build
+Alarm-Clock/build/*
 Alarm-Clock/captures
+Alarm-Clock/app/build/*

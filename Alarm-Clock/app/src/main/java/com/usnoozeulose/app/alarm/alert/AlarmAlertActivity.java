@@ -215,6 +215,9 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
             } catch (Exception e) {
 
             }
+			if (countDownTimer != null) {
+				countDownTimer.cancel();
+			}
             this.finish();
         }
 		/*
@@ -232,8 +235,8 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 			/* Make the two buttons invisible */
 			final View snoozeView = findViewById(R.id.snoozeButton);
 			snoozeView.setVisibility(View.GONE);
-			final View alarmView = findViewById(R.id.turnAlarmOffButton);
-			alarmView.setVisibility(View.GONE);
+//			final View alarmView = findViewById(R.id.turnAlarmOffButton);
+//			alarmView.setVisibility(View.GONE);
 
 			/* Creates a timer for snoozing and then starts it.*/
 			countDownTimer = new CountDownTimer(SNOOZE_LENGTH, 1000) {
@@ -250,7 +253,7 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 						Toast.makeText(alarmAlertInstance, "Snooze Time is Over!!!", Toast.LENGTH_LONG).show();
 						startAlarm();
 						snoozeView.setVisibility(View.VISIBLE);
-						alarmView.setVisibility(View.VISIBLE);
+//						alarmView.setVisibility(View.VISIBLE);
 					}
 					else {
 						Toast.makeText(alarmAlertInstance, "Too Many Snoozes, you're on your own",
@@ -275,5 +278,13 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 
 			}
 		}
+	}
+
+	/* Accesses the user's bank account and sends a certain
+	 * amount of money to another bank account
+	 */
+	public void send5BucksToCharity() {
+
+
 	}
 }
