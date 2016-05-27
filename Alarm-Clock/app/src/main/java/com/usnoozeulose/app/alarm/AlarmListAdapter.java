@@ -54,7 +54,7 @@ public class AlarmListAdapter extends BaseAdapter {
 	}
 
 	@Override
-	public View getView(int position, View view, ViewGroup viewGroup) {
+	public View getView(int position, View view, final ViewGroup viewGroup) {
 		if (null == view)
 			view = LayoutInflater.from(alarmActivity).inflate(
 					R.layout.list_item_alarm, null);
@@ -64,6 +64,9 @@ public class AlarmListAdapter extends BaseAdapter {
 		final Switch aSwitch = (Switch) view.findViewById(R.id.alarmOnOffSwitch);
 		aSwitch.setChecked(alarm.getAlarmActive());
 		aSwitch.setTag(position);
+//		if (aSwitch.isChecked()) {
+//			setSwitchesFalse(aSwitch, alarm, viewGroup);
+//		}
 		aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 			@Override
 			public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
@@ -72,7 +75,8 @@ public class AlarmListAdapter extends BaseAdapter {
 				Database.update(alarm);
 				alarmActivity.callMathAlarmScheduleService();
 				if (aSwitch.isChecked()) {
-					Toast.makeText(alarmActivity, alarm.getTimeUntilNextAlarmMessage(), Toast.LENGTH_LONG).show();
+					Toast.makeText(alarmActivity, alarm.getTimeUntilNextAlarmMessage(), Toast.LENGTH_SHORT).show();
+					setSwitchesFalse(aSwitch, alarm, viewGroup);
 				}
 			}
 		});
@@ -88,6 +92,28 @@ public class AlarmListAdapter extends BaseAdapter {
 
 
 		return view;
+	}
+
+	public void setSwitchesFalse(Switch aSwitch, Alarm alarm, ViewGroup viewGroup) {
+		for(Alarm a : alarms) {
+			if (alarm != a) {
+				a.setAlarmActive(false);
+			}
+//			else {
+//				Toast.makeText(alarmActivity, "Same Alarm", Toast.LENGTH_SHORT).show();
+//			}
+		}
+		int childCount = viewGroup.getChildCount();
+		for (int i = 0; i < childCount; i++) {
+			View v = viewGroup.getChildAt(i);
+			Switch mySwitch= (Switch) v.findViewById(R.id.alarmOnOffSwitch);
+			if (mySwitch != aSwitch) {
+				mySwitch.setChecked(false);
+			}
+//			else {
+//				Toast.makeText(alarmActivity, "Same Switch", Toast.LENGTH_SHORT).show();
+//			}
+		}
 	}
 
 	public List<Alarm> getMathAlarms() {
