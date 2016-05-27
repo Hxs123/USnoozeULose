@@ -38,7 +38,11 @@ import android.widget.Toast;
 import com.usnoozeulose.app.alarm.Alarm;
 import com.usnoozeulose.app.alarm.R;
 
+<<<<<<< HEAD
 import java.util.concurrent.TimeUnit;
+=======
+public class AlarmAlertActivity extends Activity implements OnClickListener {
+>>>>>>> 235c44f6b571e000591988646d0e50c4c8b3d86c
 
 public class AlarmAlertActivity extends Activity implements OnClickListener {
 	private int total;
@@ -237,7 +241,7 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 		String button = (String) v.getTag();
 		v.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
         if (v.getId() == R.id.turnAlarmOffButton) {
-            alarmActive = false;
+            //alarmActive = false;
             if (vibrator != null)
                 vibrator.cancel();
             try {
@@ -253,10 +257,15 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 			if (countDownTimer != null) {
 				countDownTimer.cancel();
 			}
+<<<<<<< HEAD
 			vibrator.cancel();
 			Intent intent = new Intent(getApplicationContext(), BallActivity.class);
 			intent.putExtra("alarm", alarm);
 			intent.putExtra("total", total);
+=======
+			Intent intent = new Intent(getApplicationContext(), BallActivity.class);
+			intent.putExtra("alarm", alarm);
+>>>>>>> 235c44f6b571e000591988646d0e50c4c8b3d86c
 			startActivity(intent);
             this.finish();
         }

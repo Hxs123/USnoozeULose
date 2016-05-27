@@ -32,7 +32,10 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class BallActivity extends Activity implements SensorEventListener {
+<<<<<<< HEAD
     int total;
+=======
+>>>>>>> 235c44f6b571e000591988646d0e50c4c8b3d86c
     int minutes;
     int seconds;
     boolean draw = true;
@@ -107,11 +110,14 @@ public class BallActivity extends Activity implements SensorEventListener {
 
         Bundle bundle = this.getIntent().getExtras();
         alarm = (Alarm) bundle.getSerializable("alarm");
+<<<<<<< HEAD
         if(bundle.getSerializable("total") == null){
             total = 0;
         }
         else
             total = (Integer) bundle.getSerializable("total");
+=======
+>>>>>>> 235c44f6b571e000591988646d0e50c4c8b3d86c
 
         DisplayMetrics displaymetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
@@ -136,7 +142,11 @@ public class BallActivity extends Activity implements SensorEventListener {
         animatedView = new AnimatedView(BallActivity.this);
         setContentView(animatedView);
 
+<<<<<<< HEAD
         timer = new CountDownTimer(30000, 1000) {
+=======
+        timer = new CountDownTimer(20000, 1000) {
+>>>>>>> 235c44f6b571e000591988646d0e50c4c8b3d86c
             public void onTick(long millisUntilFinished) {
                 minutes = (int) TimeUnit.MILLISECONDS.toMinutes( millisUntilFinished);
                 seconds = (int) TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished)-
@@ -171,7 +181,11 @@ public class BallActivity extends Activity implements SensorEventListener {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
 
+<<<<<<< HEAD
         getMenuInflater().inflate(R.menu.menu_main, menu);
+=======
+        //getMenuInflater().inflate(R.menu.menu_main, menu);
+>>>>>>> 235c44f6b571e000591988646d0e50c4c8b3d86c
         return true;
     }
 
@@ -295,6 +309,7 @@ public class BallActivity extends Activity implements SensorEventListener {
                     if (vibrator != null)
                         vibrator.cancel();
 
+<<<<<<< HEAD
                     vibrator.cancel();
 
                     Intent intent = new Intent(getApplicationContext(), AlarmAlertActivity.class);
@@ -303,6 +318,17 @@ public class BallActivity extends Activity implements SensorEventListener {
                     intent.putExtra("total", total);
                     //BILL THE CUSTOMER HERE RAAAAA
 
+=======
+
+
+                    Intent intent = new Intent(getApplicationContext(), AlarmAlertActivity.class);
+                    intent.putExtra("alarm", alarm);
+                    //BILL THE CUSTOMER HERE RAAAAA
+                    //RAAAAA
+                    //RAAAAAAAAAAA\
+
+                    //intent.putExtra("alarm", alarm);
+>>>>>>> 235c44f6b571e000591988646d0e50c4c8b3d86c
                     startActivity(intent);
                 } else if (complete && !fail && !stop) {
                     timer.cancel();
@@ -311,11 +337,19 @@ public class BallActivity extends Activity implements SensorEventListener {
                     restart = false;
                     buttonActivate = true;
 
+<<<<<<< HEAD
                     vibrator.cancel();
 
                     Intent intent = new Intent(getApplicationContext(), AlarmActivity.class);
                     intent.putExtra("snoozeOn", false);
                     intent.putExtra("total", total);
+=======
+                    if (vibrator != null)
+                        vibrator.cancel();
+
+                    Intent intent = new Intent(getApplicationContext(), AlarmActivity.class);
+                    intent.putExtra("snoozeOn", false);
+>>>>>>> 235c44f6b571e000591988646d0e50c4c8b3d86c
                     startActivity(intent);
                 }
                 invalidate();
