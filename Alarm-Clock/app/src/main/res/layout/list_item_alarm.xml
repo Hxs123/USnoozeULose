@@ -33,8 +33,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
+        android:thumbTextPadding="30dp"
+        android:switchMinWidth="56dp"
         android:layout_centerVertical="true"
         android:layout_marginRight="10dp"
-        android:focusable="false" />
+        android:focusable="false"
+        android:checked="false" />
 
 </RelativeLayout>

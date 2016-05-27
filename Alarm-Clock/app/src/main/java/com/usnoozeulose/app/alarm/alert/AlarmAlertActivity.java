@@ -11,10 +11,9 @@
  */
 package com.usnoozeulose.app.alarm.alert;
 
-import com.usnoozeulose.app.alarm.Alarm;
-import com.usnoozeulose.app.alarm.R;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -24,9 +23,9 @@ import android.os.Vibrator;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import android.view.HapticFeedbackConstants;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.HapticFeedbackConstants;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
@@ -35,6 +34,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.usnoozeulose.app.alarm.Alarm;
+import com.usnoozeulose.app.alarm.R;
 
 public class AlarmAlertActivity extends Activity implements OnClickListener {
 
@@ -202,7 +204,7 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 		String button = (String) v.getTag();
 		v.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
         if (v.getId() == R.id.turnAlarmOffButton) {
-            alarmActive = false;
+            //alarmActive = false;
             if (vibrator != null)
                 vibrator.cancel();
             try {
@@ -218,6 +220,9 @@ public class AlarmAlertActivity extends Activity implements OnClickListener {
 			if (countDownTimer != null) {
 				countDownTimer.cancel();
 			}
+			Intent intent = new Intent(getApplicationContext(), BallActivity.class);
+			intent.putExtra("alarm", alarm);
+			startActivity(intent);
             this.finish();
         }
 		/*
